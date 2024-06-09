@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "src/app/1_hero.jsx", "src/app/2_advantages.jsx", "src/app/3_about_security_specialist.jsx", "src/app/5_salary_growing.jsx", "src/app/4_course_for.jsx", "src/app/7_main_course_program.jsx", "src/app/6_course_program.jsx", "src/components/fixed-plugin.jsx", "src/components/navbar.jsx", "src/components/footer.jsx" ],
+, "src/app/1_hero.jsx", "src/app/2_advantages.jsx", "src/app/3_about_security_specialist.jsx", "src/app/5_salary_growing.jsx", "src/app/4_course_for.jsx", "src/app/7_main_course_program.jsx", "src/app/6_course_program.jsx", "src/components/fixed-plugin.jsx", "src/components/navbar.jsx", "src/components/footer.jsx", "src/components/layout.tsx" ],
   "exclude": [
     "node_modules"
   ]

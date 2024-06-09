@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from 'next/font/google';
-import { Layout, FixedPlugin } from "@/components";
+import { FixedPlugin } from "@/components";
 
 const roboto = Inter({
   subsets: ["latin"],
@@ -31,10 +31,10 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={roboto.className}>
-        <Layout>
+
           {children}
           <FixedPlugin />
-        </Layout>
+
       </body>
     </html>
   );
