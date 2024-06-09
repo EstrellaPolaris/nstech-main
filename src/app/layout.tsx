@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Inter } from 'next/font/google';
 import { Layout, FixedPlugin } from "@/components";
 
-const roboto = Roboto({
+const roboto = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],
   display: "swap",
